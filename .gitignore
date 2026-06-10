@@ -1,0 +1,31 @@
+# ===== Build output (NEVER commit compiled classes) =====
+target/
+build/
+*.class
+*.jar
+*.war
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Secrets / local env (NEVER commit real secrets) =====
+.env
+*.local.properties
+application-local.properties
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# ===== Maven wrapper / misc =====
+.mvn/timing.properties
+HELP.md
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
